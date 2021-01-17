@@ -1,0 +1,11 @@
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.csprojAssemblyReference.cache
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.AssemblyInfoInputs.cache
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.AssemblyInfo.cs
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.exe
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.deps.json
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.runtimeconfig.json
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.runtimeconfig.dev.json
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.dll
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.pdb
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.dll
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.pdb
