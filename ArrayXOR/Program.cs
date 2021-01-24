@@ -1,4 +1,5 @@
 ﻿using System;
+using GenericTrie;
 
 namespace ArrayXOR
 {
@@ -28,23 +29,37 @@ namespace ArrayXOR
             return array;
         }
         
+        // Returns an array of ints where each is 0 or 1, representing the initial value's binary representation
+        static int[] GetBitArray(int value)
+        {
+            int[] bits = new int[32];
+
+            for (int i = bits.Length - 1; i > -1; i--)
+            {
+                bits[i] = value & 0x01;
+                value >>= 1;
+            }
+
+            return bits;
+        }
+
         static int MaxXORLinear(int[] array)
         {
-            Trie trie = new Trie();
+            Trie<int, int> trie = new Trie<int, int>();
             int max = -1;
 
             // Build Trie
             for (int i = 0; i < array.Length; i++)
             {
-                // Convert to binary string with length of 32 (because that's how big an int is)
-                string number = Convert.ToString(array[i], 2).PadLeft(32, '0');
+                // Convert to binary array with length of 32 (because that's how big an int is)
+                int[] number = GetBitArray(array[i]);
 
                 trie.Insert(number, array[i]);
             }
 
             for (int i = 0; i < array.Length; i++)
             {
-                TrieNode current = trie.Root;
+                TrieNode<int, int> current = trie.Root;
 
                 // We want to find what is as close as possible to ~array[i]
                 for (int j = 31; j > -1; j--)
@@ -53,11 +68,11 @@ namespace ArrayXOR
 
                     if ((array[i] & mask) == 0)
                     {
-                        current = current.Children.ContainsKey('1') ? current.Children['1'] : current.Children['0'];
+                        current = current.Children.ContainsKey(1) ? current.Children[1] : current.Children[0];
                     }
                     else
                     {
-                        current = current.Children.ContainsKey('0') ? current.Children['0'] : current.Children['1'];
+                        current = current.Children.ContainsKey(0) ? current.Children[0] : current.Children[1];
                     }
                 }
 

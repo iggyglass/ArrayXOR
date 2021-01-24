@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "GenericTrie/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GenericTrie.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GenericTrie.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GenericTrie/1.0.0": {
+      "type": "project",
+      "path": "../GenericTrie/GenericTrie.csproj",
+      "msbuildProject": "../GenericTrie/GenericTrie.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "GenericTrie >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\iggyg\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\iggyg\\source\\repos\\ArrayXOR\\GenericTrie\\GenericTrie.csproj": {
+              "projectPath": "C:\\Users\\iggyg\\source\\repos\\ArrayXOR\\GenericTrie\\GenericTrie.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -9,3 +9,6 @@ C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.d
 C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\ArrayXOR.pdb
 C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.dll
 C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.pdb
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\GenericTrie.dll
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\bin\Debug\netcoreapp3.0\GenericTrie.pdb
+C:\Users\iggyg\source\repos\ArrayXOR\ArrayXOR\obj\Debug\netcoreapp3.0\ArrayXOR.csproj.CopyComplete

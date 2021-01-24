@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "ArrayXOR/1.0.0": {
+        "dependencies": {
+          "GenericTrie": "1.0.0"
+        },
         "runtime": {
           "ArrayXOR.dll": {}
+        }
+      },
+      "GenericTrie/1.0.0": {
+        "runtime": {
+          "GenericTrie.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ArrayXOR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GenericTrie/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

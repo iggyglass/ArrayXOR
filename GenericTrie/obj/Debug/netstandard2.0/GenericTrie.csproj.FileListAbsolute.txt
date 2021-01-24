@@ -1,0 +1,8 @@
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\bin\Debug\netstandard2.0\GenericTrie.deps.json
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\bin\Debug\netstandard2.0\GenericTrie.dll
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\bin\Debug\netstandard2.0\GenericTrie.pdb
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\obj\Debug\netstandard2.0\GenericTrie.csprojAssemblyReference.cache
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\obj\Debug\netstandard2.0\GenericTrie.AssemblyInfoInputs.cache
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\obj\Debug\netstandard2.0\GenericTrie.AssemblyInfo.cs
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\obj\Debug\netstandard2.0\GenericTrie.dll
+C:\Users\iggyg\source\repos\ArrayXOR\GenericTrie\obj\Debug\netstandard2.0\GenericTrie.pdb
