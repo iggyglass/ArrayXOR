@@ -97,10 +97,12 @@ namespace GenericTrie
         {
             List<TValue> values = new List<TValue>();
             Queue<TrieNode<TPiece, TValue>> nodes = new Queue<TrieNode<TPiece, TValue>>();
-            TrieNode<TPiece, TValue> current = start;
+            TrieNode<TPiece, TValue> current;
 
             while (nodes.Count > 0)
             {
+                current = nodes.Dequeue();
+
                 if (current.IsEnd)
                 {
                     values.Add(current.Value);
@@ -110,8 +112,6 @@ namespace GenericTrie
                 {
                     nodes.Enqueue(kvp.Value);
                 }
-
-                current = nodes.Dequeue();
             }
 
             return values;
